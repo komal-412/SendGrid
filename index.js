@@ -74,7 +74,13 @@ function sendemail(email,cinh,cinm){
       subject:"Entering building",
       text:`Hi you entered the building at ${h}:${m}`
   };
-  sgMail.send(msg);
+  sgMail.send(msg)
+  .then(()=>{
+      console.log("Email Sent");
+  })
+  .catch((err)=>{
+      console.log(err);
+  });
 }
 
 
