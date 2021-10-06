@@ -1,0 +1,26 @@
+{
+  "name": "sendgrid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/komal-412/SendGrid.git"
+  },
+  "author": "Komal Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/komal-412/SendGrid/issues"
+  },
+  "homepage": "https://github.com/komal-412/SendGrid#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.0.9",
+    "nodemon": "^2.0.13"
+  }
+}
