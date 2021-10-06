@@ -58,7 +58,7 @@ app.delete('/home/:id',async (req,res)=>{
 
 function sendemail(email,cinh,cinm){
     const sgMail=require('@sendgrid/mail');
-   const  sendgrid=//'your api key';
+   const  sendgrid='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';
   sgMail.setApiKey(sendgrid);
   let m=cinm.toString();
   let h=cinh.toString();;
